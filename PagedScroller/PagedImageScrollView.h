@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PagedImageScrollView.h
 //  PagedScroller
 //
 //  Created by Adusa on 15/9/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIPageViewControllerDelegate,UIScrollViewDelegate>
-
-
+@interface PagedImageScrollView : UIScrollView
+@property (nonatomic,strong) NSArray *images;
 @end
-
